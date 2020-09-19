@@ -5,10 +5,13 @@
     <title>Welcome to Vecta Corporation</title>
     <link rel="stylesheet" href="styles/main_styles.css">
     <style>
-        p:nth-of-type(2)  {
-            color:red;
-            
-        }
+        p:not(:first-of-type):first-line  {
+            font-weight:bold;
+                    }
+         p:not(:first-of-type) img{
+             float:left;
+             padding: 10px;
+         }           
 
     </style>
 </head>

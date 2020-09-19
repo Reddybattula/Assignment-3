@@ -3,11 +3,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 2em;
-    margin-left: 20px;
+    margin-left: 0 0 0 20px;
 }
 
 ul:first-of-type li{
     list-style-type: none;
+   
+}
+ul:first-of-type{
+    margin-left:0;
+    padding-left:0px;
 }
 
 h2{
@@ -28,25 +33,7 @@ section.aboutus img{
     border-radius: 45%;
     border:1px solid red;
 }
-/*
-.pricing div{
-    float:left;
-    width: 24%;
-    border: 1px solid black;
-    margin: 3px;
-    text-align:center;
-    border-radius: 5px;
-    height: 300px;
-}
-.pricing div img{
-    padding-top: 40px;
-}
 
-#firstbox{
-    color: 1 px solid blue;
-    line-height-step: 5px;
-    background-color: blue;
-}*/
 .pricing > div{
     float:left;
     width: 24%;
