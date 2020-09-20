@@ -26,6 +26,10 @@ h2{
 a{
     color:red;
 }
+p:not(:first-of-type) img{
+    float:left;
+    padding: 10px;
+} 
 
 section.aboutus img{
     float:left;
@@ -46,8 +50,36 @@ section.aboutus img{
 
 }
 .pricing > div > div:nth-child(1){
-    color: red;
+    
     min-height: 50px;
+   
+}
+.pricing > div:nth-of-type(4) > div:nth-child(1){
+    
+    min-height: 50px;
+    text-align: center;
+  
+   
+}
+
+section.pricing > div > h3{
+    border-top: solid;
+    border-top-width:10px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+section.pricing div:first-of-type > h3:nth-of-type(1){
+    border-top-color:#CC1C0D;
+}
+section.pricing div:nth-of-type(2) > h3:nth-of-type(1){
+    border-top-color:#37A4A4;
+}
+section.pricing div:nth-of-type(3) > h3:nth-of-type(1){
+    border-top-color:#685288;
+}
+section.pricing div:nth-of-type(4) > h3:nth-of-type(1){
+    border-top-color:#000000;
 }
 
 

@@ -6,18 +6,20 @@ body{
 }
 
 h3{
-    background-color: beige;
+    background-color: #DFE3E6;
     border-bottom: 1px solid #929CA4;
+    color:red;
 }
 
 p:first-of-type::first-letter{
     font-size: 30px;
 }
 
-.solution span{
+
+.solution {
     color: #CC1C0D;
     font-weight: bold; 
- }
+    }
 
  #testimonial1, #testimonial2{
      font-style: italic;
@@ -54,3 +56,6 @@ ul li:first-of-type{
 ul li:last-of-type{
     color: red;
 }
+
+
+
