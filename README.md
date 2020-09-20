@@ -7,9 +7,9 @@
 Website with 5 pages and has styling to the pages using CSS3
 
 ## Description
-
-This website has mainly 5 pages namely home, aboutus, solutions, pricing and contact us. Mainly styling is done to the headings, solutions page, pricing and about us page. Used CSS seelectors than ID's, classes etc.  
 This assignment has two part, part 1 contains simple page and part2 contains website with 5 pages.
+This website has mainly 5 pages namely home, aboutus, solutions, pricing and contact us. Mainly styling is done to the headings, solutions page, pricing and about us page. Used CSS seelectors than ID's, classes etc.  
+
 ### Home page
 It contains breif descrition of the following:  
 * Welcome message
